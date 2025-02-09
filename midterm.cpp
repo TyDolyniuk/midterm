@@ -2,10 +2,11 @@
 # Author:           Ty Dolyniuk
 # Assignment:       CS161 Midterm
 # Date:             2/8/25
-# Description:      
+# Description:      User will input player names and amount of rocks that the
+#                   players have in the rock collection championship.
 # Input:            Player names(string), amount of rocks per player(int)
-# Output:           Outputs the placements of each player and the average
-#                   number of rocks that the players had combined.
+# Output:           Outputs the placements of each player(string) and the
+#                   average number of rocks that the players had combined(float).
 # Sources:          Midterm specifications, zyBooks textbook
 #******************************************************************************/
 #include <iostream>
