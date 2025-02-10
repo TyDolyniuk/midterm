@@ -27,7 +27,7 @@ int main() {
     cout << "Welcome to the Rock Collecting Championship!" << endl;
     cout << "Enter Player 1 name: ";
     getline(cin,player1);
-    cout << "How man rocks did " << player1 << " collect?" << endl;
+    cout << "How many rocks did " << player1 << " collect?" << endl;
     cin >> player1Amt;
     if (player1Amt < 0) {
         cout << "Input is invalid. Setting amount to 0." << endl;
@@ -37,7 +37,7 @@ int main() {
     cout << "Enter Player 2 name: ";
     getline(cin,player2);
     getline(cin,player2);
-    cout << "How man rocks did " << player2 << " collect?" << endl;
+    cout << "How many rocks did " << player2 << " collect?" << endl;
     cin >> player2Amt;
     if (player2Amt < 0) {
         cout << "Input is invalid. Setting amount to 0." << endl;
@@ -47,7 +47,7 @@ int main() {
     cout << "Enter Player 3 name: ";
     getline(cin,player3);
     getline(cin,player3);
-    cout << "How man rocks did " << player3 << " collect?" << endl;
+    cout << "How many rocks did " << player3 << " collect?" << endl;
     cin >> player3Amt;
     if (player3Amt < 0) {
         cout << "Input is invalid. Setting amount to 0." << endl;
